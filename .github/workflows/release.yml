@@ -6,6 +6,8 @@ jobs:
   deploy:
     if: github.ref_type == 'branch' && github.ref_name == 'main'
     runs-on: ubuntu-22.04
+    permissions:
+      packages: write
     steps:
       - uses: actions/checkout@v4
       - name: "Publish Features"
