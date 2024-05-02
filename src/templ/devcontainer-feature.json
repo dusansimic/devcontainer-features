@@ -1,0 +1,20 @@
+{
+  "id": "templ",
+  "version": "0.1.0",
+  "name": "Templ (via GitHub Release)",
+  "documentationURL": "https://github.com/dusansimic/devcontainer-features/tree/main/src/templ",
+  "description": "https://github.com/a-h/templ",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Select the version to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    },
+    "installsAfter": [
+      "ghcr.io/devcontainers-contrib/features/gh-release"
+    ]
+  }
+}

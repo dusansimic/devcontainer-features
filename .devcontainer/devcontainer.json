@@ -1,0 +1,17 @@
+{
+	"name": "Ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mads-hartmann.bash-ide-vscode",
+				"DavidAnson.vscode-markdownlint",
+				"darkriszty.markdown-table-prettify",
+				"github.vscode-github-actions"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/lukewiwa/features/shellcheck:0": {}
+	}
+}
